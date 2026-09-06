@@ -1,0 +1,34 @@
+# ROS 2 / Colcon
+build/
+install/
+log/
+**/__pycache__/
+*.pyc
+
+# Python environments
+.venv/
+venv/
+env/
+yolo_env/
+
+# PX4 generated/runtime files
+*.ulg
+dataman*
+parameters_backup.bson
+
+# ML model weights
+*.pt
+*.onnx
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
+*.pem
